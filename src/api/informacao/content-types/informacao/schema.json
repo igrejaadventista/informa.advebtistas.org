@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "informacaos",
+  "info": {
+    "singularName": "informacao",
+    "pluralName": "informacaos",
+    "displayName": "Informação",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nome": {
+      "type": "string"
+    },
+    "valor": {
+      "type": "string",
+      "required": true
+    },
+    "infografico": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::infografico.infografico"
+    }
+  }
+}

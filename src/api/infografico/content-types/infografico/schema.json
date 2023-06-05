@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "infograficos",
+  "info": {
+    "singularName": "infografico",
+    "pluralName": "infograficos",
+    "displayName": "Infográfico"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nome": {
+      "type": "string"
+    }
+  }
+}
