@@ -1,0 +1,14 @@
+version: '3.3'
+services:
+
+  informa_db:
+    image: 'mysql:5.7'
+    container_name: informa_db
+    volumes:
+      - './db/mysql:/var/lib/mysql'
+    ports:
+      - '3306:3306'
+    environment:
+      MYSQL_ROOT_USER: 'root'
+      MYSQL_DATABASE: 'strapi'
+      MYSQL_ROOT_PASSWORD: 'root'
